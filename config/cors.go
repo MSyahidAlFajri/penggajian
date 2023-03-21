@@ -8,7 +8,8 @@ import (
 )
 
 var origins = []string{
-	"https://adorableproject.github.io",
+	"https://MSyahidAlFajri.github.io",
+	"https://gocroot.github.io",
 	"https://auth.ulbi.ac.id",
 	"https://sip.ulbi.ac.id",
 	"https://euis.ulbi.ac.id",
@@ -16,7 +17,7 @@ var origins = []string{
 	"https://alpha.ulbi.ac.id",
 	"https://dias.ulbi.ac.id",
 	"https://iteung.ulbi.ac.id",
-	"https://whatsauth.github.io",
+	"https://whatsauth.github.io/",
 }
 
 var Internalhost string = os.Getenv("INTERNALHOST") + ":" + os.Getenv("PORT")
