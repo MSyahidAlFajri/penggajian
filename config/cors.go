@@ -10,6 +10,7 @@ import (
 var origins = []string{
 	"https://MSyahidAlFajri.github.io",
 	"https://gocroot.github.io",
+	"http://127.0.0.1:5500",
 	"https://auth.ulbi.ac.id",
 	"https://sip.ulbi.ac.id",
 	"https://euis.ulbi.ac.id",
