@@ -1,6 +1,8 @@
 package controller
 
 import (
+	"net/http"
+
 	"github.com/MSyahidAlFajri/backend"
 	"github.com/gocroot/penggajian/config"
 	"github.com/gofiber/fiber/v2"
@@ -50,4 +52,24 @@ func GetTeam(c *fiber.Ctx) error {
 func GetJob(c *fiber.Ctx) error {
 	getnamajob := backend.GetDataJob("Staff Administrasi")
 	return c.JSON(getnamajob)
+}
+
+func InsertKaryawan(c *fiber.Ctx) error {
+	database := config.MongoConn
+	var model backend.Karyawan
+	if err := c.BodyParser(&model); err != nil {
+		return err
+	}
+	Inserted := backend.InsertKaryawan(database,
+		DataKaryawan,
+		model.Nama,
+		model.Status,
+		model.Jabatan,
+		model.Gaji,
+	)
+	return c.JSON(map[string]interface{}{
+		"status":      http.StatusOK,
+		"message":     "Data berhasil disimpan.",
+		"inserted_id": Inserted,
+	})
 }
