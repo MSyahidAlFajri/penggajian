@@ -8,7 +8,7 @@ import (
 )
 
 var origins = []string{
-	"https://adorableproject.github.io/",
+	"https://adorableproject.github.io",
 	"https://auth.ulbi.ac.id",
 	"https://sip.ulbi.ac.id",
 	"https://euis.ulbi.ac.id",
