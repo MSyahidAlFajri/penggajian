@@ -14,5 +14,5 @@ func Web(page *fiber.App) {
 	page.Get("/honor", controller.GetHonor)
 	page.Get("/team", controller.GetTeam)
 	page.Get("/Job", controller.GetJob)
-	page.Get("/tambah", controller.InsertKaryawan)
+	// page.Get("/tambah", controller.InsertKaryawan)
 }
