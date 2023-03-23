@@ -19,6 +19,8 @@ github.com/MSyahidAlFajri/backend v0.0.18 h1:zE7E8VO5CSAZBKEguoMPnUQZb26SviGnf26
 github.com/MSyahidAlFajri/backend v0.0.18/go.mod h1:pAJAMijCEPx+TYe4IHq/Hi/5Oh1JHLsu5lvW5UUd1pc=
 github.com/MSyahidAlFajri/backend v0.0.19 h1:+SBNvTvBt1DZDriIn+h1kDGxP5O7TGNIzvjdQHcVNBA=
 github.com/MSyahidAlFajri/backend v0.0.19/go.mod h1:pAJAMijCEPx+TYe4IHq/Hi/5Oh1JHLsu5lvW5UUd1pc=
+github.com/MSyahidAlFajri/backend v0.0.20 h1:Qvx7DR/VzQW3MqnPDLP7kFfROo6w1gmQjkTCc28KrCg=
+github.com/MSyahidAlFajri/backend v0.0.20/go.mod h1:qy+31L+jHYil2sx63C/arxGvxrHv7ZIUJogtoX/OlXc=
 github.com/MSyahidAlFajri/ws v0.0.1 h1:Uf6bgrgMEQr+Y8fYWzK39c4afn6Z8qug89bwdZPQj/k=
 github.com/MSyahidAlFajri/ws v0.0.1/go.mod h1:ih3/PmXVEKj17hNkkwexG0GmsgBad4tZmPQKyk9ALZc=
 github.com/MSyahidAlFajri/ws v0.0.12 h1:cvrnA+MrQgKF3ZtKbncGq4mUElQMiNTOFjhzMc+ui9o=

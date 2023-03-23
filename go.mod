@@ -13,8 +13,7 @@ require (
 require (
 	aidanwoods.dev/go-paseto v1.2.0 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect
-	github.com/MSyahidAlFajri/backend v0.0.19 // indirect
-	github.com/MSyahidAlFajri/ws v0.0.12 // indirect
+	github.com/MSyahidAlFajri/backend v0.0.20
 	github.com/aiteung/atapi v0.0.10 // indirect
 	github.com/aiteung/atmessage v0.0.2 // indirect
 	github.com/aiteung/atmodel v0.0.2 // indirect
