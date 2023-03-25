@@ -52,16 +52,16 @@ func GetJob(c *fiber.Ctx) error {
 	return c.JSON(getnamajob)
 }
 
-func InsertData(c *fiber.Ctx) error {
-	model := new(backend.Karyawan)
-	tambahdata := backend.InsertKaryawan(config.MongoConn,
-		model.Nama,
-		model.Status,
-		model.Jabatan,
-		model.Gaji,
-	)
-	return c.JSON(tambahdata)
-}
+// func InsertData(c *fiber.Ctx) error {
+// 	model := new(backend.Karyawan)
+// 	tambahdata := backend.InsertKaryawan(config.MongoConn,
+// 		model.Nama,
+// 		model.Status,
+// 		model.Jabatan,
+// 		model.Gaji,
+// 	)
+// 	return c.JSON(tambahdata)
+// }
 
 // func InsertKaryawan(c *fiber.Ctx) error {
 // 	database := config.MongoConn
