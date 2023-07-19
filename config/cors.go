@@ -11,7 +11,7 @@ var origins = []string{
 	"https://MSyahidAlFajri.github.io",
 	"https://msyahidalfajri.github.io",
 	"https://penggajian.herokuapp.com/",
-	"https://gocroot.github.io/",
+	"https://gocroot.github.io",
 	"http://127.0.0.1:5500",
 	"http://127.0.0.1:5501",
 	"https://auth.ulbi.ac.id",
